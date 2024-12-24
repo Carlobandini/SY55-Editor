@@ -37,41 +37,60 @@ Each element tab contain the same parameters and is divided in 4 sections vertic
 It is possible to copy / paste patchs and elements, as well as saving and loading patches in your computer.
 
 When the SY55 is connected, when a parameter is edited on the screen, it will change in the SY55 immediately, so you can hear the changes on real time.
+
 The computer keyboard can be used as a controller as follows: 
+
 'Z','S','X','D','C','V','G','B','H','N','J','M': Notes C to B
+
 'Q','2','W','3','E','R','5','T','6','Y','7','U': Notes C to B + 1 octave
+
 'I','9','O','0','P','[','=',']': Notes C to G + 2 octaves
+
 '+': octave up
+
 '-': octave dowm
+
 * The keyboard control is polyphonic and sends note on / note off signals.
 
 --- MENUS --- 
 
 FILE: 
 Includes load patch, save patch and to exit the program.
+
 * The patches can have any extensions and can be saved and loaded from anywhere in your computer, network or external drives.
+
 * Since there is a difference between the voice and drum sets, The drum patches cannot be loaded when a voice patch is selected on the synthesizer, and vice-versa.
+
 * The drum presets in the SY55 are limited to the programs number 63 and 64.
+* 
 * When editing a drum set, most of the parameters will change.
 
 PATCH:
 Request current patch: Loads the SY55 edit buffer into the software controls.
+
 Request on start: When this option is active, is marked with a (*), and the patch is requested everytime the software starts.
+
 Initialize patch: Reset the patch loading the default values.
 
 ELEMENT:
 This menu has the actions to copy, paste and initialize an element to the default values. 
+
 * This menus are not available in drum set mode.
 
 MIDI:
 Reset midi configuration: Resets the stored midi controllers info. and reads all the midi inputs and outputs.
+
 Reset midi device: Reset the current midi input and output.
+
 Midi input: Set up a midi input
+
 Midi output: Set up a midi output
+
 * When a midi input / output is selected, it is saved on the preferences and will be loaded everytime the software starts, unless another input / output is selected.
 
 HELP: This menu.
 
 --- CREDITS ---
 Programming and testing: Carlo Bandini, 2024.
+
 carlobandini@gmail.com
