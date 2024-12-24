@@ -2,8 +2,11 @@ SY-55 VOICE EDITOR
 ------------------
 
 I have recently bought a Yamaha sy55, then I noticed that there was not a decent voice / drum editor, so i decided to do a open source one.
+
 I coded it entirely in python 3.11, so it can be executed from the source having all the dependences or from the executables for windows / mac intel (no silicon for now)
+
 I didn't tested a lot, especially the windows version, so there will still probably be some bugs (any testing is appreciated)
+
 A known bug is that the keyboard controller doesn't work in windows, but since it's a dearpygui bug, I should not fix it immediately.
 
 Python dependencies:
