@@ -1,16 +1,23 @@
 SY-55 VOICE EDITOR
--------------------------------
+------------------
 
-This software is intended to edit the Yamaha SY55 synthesizer voice and drum parameters.
-It should work with the TG55, missing some of the features that belongs only to the TG55 as the multiple outputs, but it has been untested.
-The multi mode, sequencer and utility controls cannot be accesed by this software.
-There is no support for data nor waveform cards, since I don't have any of them to test.
+I have recently bought a Yamaha sy55, then I noticed that there was not a decent voice / drum editor, so i decided to do a open source one.
+I coded it entirely in python 3.11, so it can be executed from the source having all the dependences or from the executables for windows / mac intel (no silicon for now)
+I didn't tested a lot, especially the windows version, so there will still probably be some bugs (any testing is appreciated)
+A known bug is that the keyboard controller doesn't work in windows, but since it's a dearpygui bug, I should not fix it immediately.
 
-Platform: The software is multi platform, but it has only been tested on intel mac.
+Python dependencies:
+* dearpygui (pip install dearpygui)
+* mido (pip install mido)
+* mido backends rtmidi (pip install python-rtmidi)
+* filedialpy (pip install filedialpy)
+
+MANUAL:
+-------
 
 --- USING THE SOFTWARE --- 
 
-The software works in two different modes: Voice and drum set, having each of them different parameters to edit.
+This software works in two different modes: Voice and drum set, having each of them different parameters to edit.
 In both modes, the main window is divided in two parts; the upper part shows the parameters that are common to the voices with 1,2 or 4 elements and drum sets, 
 however, not all the controllers are available in the drum set mode.
 
