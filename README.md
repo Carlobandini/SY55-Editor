@@ -93,6 +93,7 @@ Midi output: Set up a midi output
 HELP: This menu.
 
 --- CREDITS ---
+
 Programming and testing: Carlo Bandini, 2024.
 
 carlobandini@gmail.com
