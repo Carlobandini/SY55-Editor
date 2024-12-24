@@ -1,15 +1,15 @@
 SY-55 VOICE EDITOR
 ------------------
 
-I have recently bought a Yamaha sy55, then I noticed that there was not a decent voice / drum editor, so i decided to do a open source one.
+When I bought a Yamaha sy55, I noticed that there was not a decent voice / drum editor, so i decided to build it by myself.
 
-I coded it entirely in python 3.11, so it can be executed from the source having all the dependences or from the executables for windows / mac intel (no silicon for now)
+I coded it entirely in python 3.11, so it can be executed from the source having all the dependences or from the executables for windows / mac intel. I don't have silicon mac to do an executable for now, but i think it can be easily done, since it looks like the python version works well.
 
 Please note that since I don't pay to be a certified apple software developer, the mac binary is blocked by the system. To allow it to be executed, just go to go to System Settings > Privacy & Security, then click on "Open Anyway" next to the blocked app. After receiving a warning message, confirming that you trust the app and want to open it.
 
-I didn't tested a lot, especially the windows version, so there will still probably be some bugs (any testing is appreciated)
+There can be some bugs since I didn't have enlugh time to test it deeply, especially the windows version.
 
-A known bug is that the keyboard controller doesn't work in windows, but since it's a dearpygui bug, I should not fix it immediately.
+A known bug is that the keyboard controller doesn't work in windows, I plan to fix it in the next days.
 
 Python dependencies:
 * dearpygui (pip install dearpygui)
@@ -23,15 +23,22 @@ MANUAL:
 --- USING THE SOFTWARE --- 
 
 This software works in two different modes: Voice and drum set, having each of them different parameters to edit.
+
 In both modes, the main window is divided in two parts; the upper part shows the parameters that are common to the voices with 1,2 or 4 elements and drum sets, 
 however, not all the controllers are available in the drum set mode.
 
 The lower area is divided by tabs containing the elements, drums and controllers used by the current patch.
+
 * The tabs will change depending on the elements number and the patch mode.
+
 Each element tab contain the same parameters and is divided in 4 sections vertically: 
+
 1- Wave and volume, including element on/off, pan and effect balance.
+
 2- Pitch parameters.
+
 3- Filters.
+
 4- This window is also divided in two sections: Note and Vel limit (left), and LFO (right)
 
 * For more info. about the synthesizer parameters, please consult the SY55 manual.
@@ -64,7 +71,7 @@ Includes load patch, save patch and to exit the program.
 * Since there is a difference between the voice and drum sets, The drum patches cannot be loaded when a voice patch is selected on the synthesizer, and vice-versa.
 
 * The drum presets in the SY55 are limited to the programs number 63 and 64.
-* 
+
 * When editing a drum set, most of the parameters will change.
 
 PATCH:
