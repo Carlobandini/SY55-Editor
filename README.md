@@ -5,6 +5,8 @@ I have recently bought a Yamaha sy55, then I noticed that there was not a decent
 
 I coded it entirely in python 3.11, so it can be executed from the source having all the dependences or from the executables for windows / mac intel (no silicon for now)
 
+Please note that since I don't pay to be a certified apple software developer, the mac binary is blocked by the system. To allow it to be executed, just go to go to System Settings > Privacy & Security, then click on "Open Anyway" next to the blocked app. After receiving a warning message, confirming that you trust the app and want to open it.
+
 I didn't tested a lot, especially the windows version, so there will still probably be some bugs (any testing is appreciated)
 
 A known bug is that the keyboard controller doesn't work in windows, but since it's a dearpygui bug, I should not fix it immediately.
