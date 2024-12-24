@@ -195,6 +195,7 @@ def keydownCallback(sender,app_data):
     if dpg.is_item_focused('voice_name') == True:
         return
     keyascii = chr(app_data[0])
+
     if keyascii in key:
         return
     # ignore any other keys
@@ -7392,10 +7393,14 @@ for i in range (61):
         dpg.bind_item_theme('drums_Efx_Balance'+str(i),drum_theme)
 
 ############################## FONTS ###########################
+if sys.platform =='win32':
+    fontpath = 'C:/Windows/Fonts/Arial.ttf'
+if sys.platform == 'darwin':
+    fontpath = '/System/Library/Fonts/Supplemental/Arial.ttf'
 with dpg.font_registry():
-    default_font = dpg.add_font('/System/Library/Fonts/Supplemental/Arial.ttf', 14)
-    medium_font = dpg.add_font('/System/Library/Fonts/Supplemental/Arial.ttf', 12)
-    small_font = dpg.add_font('/System/Library/Fonts/Supplemental/Arial.ttf', 11)
+    default_font = dpg.add_font(fontpath, 14)
+    medium_font = dpg.add_font(fontpath, 12)
+    small_font = dpg.add_font(fontpath, 11)
 dpg.bind_font(default_font)
 dpg.bind_item_font('amp_mod_cc', small_font)
 dpg.bind_item_font('pitch_mod_cc', small_font)
