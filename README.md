@@ -99,9 +99,7 @@ Midi input: Set up a midi input
 
 Midi output: Set up a midi output
 
-* When a midi input / output is selected, it is saved on the preferences and will be loaded everytime the software starts, unless another
-
-input / output is selected.
+* When a midi input / output is selected, it is saved on the preferences and will be loaded everytime the software starts.
 
 HELP: This menu.
 
