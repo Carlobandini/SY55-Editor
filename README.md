@@ -3,18 +3,22 @@ SY-55 VOICE EDITOR
 
 When I bought a Yamaha sy55, I noticed that there was not a decent voice / drum editor, so i decided to build it by myself.
 
-I coded it entirely in python 3.11, so it can be executed from the source having all the dependences or from the executables for windows / mac intel. I don't have silicon mac to do an executable for now, but i think it can be easily done, since it looks like the python version works well.
-
-Please note that since I don't pay to be a certified apple software developer, the mac binary is blocked by the system. To allow it to be executed, just go to go to System Settings > Privacy & Security, then click on "Open Anyway" next to the blocked app. After receiving a warning message, confirming that you trust the app and want to open it.
+I coded it entirely in python, so it can be executed from the source having all the dependences as well as from the executables. I don't have silicon mac to do an executable for now, but i think it can be easily done, since it looks like the python version works well.
 
 There can be some bugs since I didn't have enlugh time to test it deeply, especially the windows version.
 
-A known bug is that the keyboard controller doesn't work in windows, I plan to fix it in the next days.
+File list:
+* source: the python source code folder.
+* LICENSE: The BSD new License.
+* README.md: this text file.
+* sy55.app.zip: Mac Intel executable (working on Monterey)
+* sy55.exe: Windows 10/11 executable
 
 Python dependencies:
+Tested and working on python 3.11 - 3.12.
 * dearpygui (pip install dearpygui)
 * mido (pip install mido)
-* mido backends rtmidi (pip install python-rtmidi)
+* mido backends rtmidi (pip install python-rtmidi) --> be sure to don't "pip install rtmidi", since it will not work !!.
 * filedialpy (pip install filedialpy)
 
 MANUAL:
