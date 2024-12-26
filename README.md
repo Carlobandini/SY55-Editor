@@ -5,7 +5,7 @@ When I bought a Yamaha sy55, I noticed that there was not a decent voice / drum 
 
 I coded it entirely in python, so it can be executed from the source having all the dependences as well as from the executables. I don't have silicon mac to do an executable for now, but i think it can be easily done, since it looks like the python version works well.
 
-There can be some bugs since I didn't have enlugh time to test it deeply, especially the windows version.
+I don't have a lot of time to test and debug, any help is appreciated.
 
 File list:
 * source: the python source code folder.
