@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>sy55</string>
+	<key>CFBundleExecutable</key>
+	<string>sy55</string>
+	<key>CFBundleIconFile</key>
+	<string>generated-b3b459b1cd5f89e3acdb29600c07bdf5bfad3b79d734e614e52629a4b0e3187a.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>sy55</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>sy55</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
