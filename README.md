@@ -3,7 +3,7 @@ SY-55 VOICE EDITOR
 
 When I bought a Yamaha sy55, I noticed that there was not a decent voice / drum editor, so i decided to build it by myself.
 
-I coded it entirely in python, so it can be executed from the source having all the dependences as well as from the executables. I don't have silicon mac to do an executable for now, but i think it can be easily done, since it looks like the python version works well.
+I coded it entirely in python, so it can be executed from the zipped binaries for Windows, Mac Silicon and Mac Intel or from the source if having all the dependences installed.
 
 I don't have a lot of time to test and debug, any help is appreciated.
 
