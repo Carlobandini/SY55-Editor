@@ -344,23 +344,23 @@ def effecttype(sender):
     # 26: Dly1&T1 27: Dly2&T1 28: Tone 2 29: Dly1&T2 30: Dly2&T2 31: Dist&Rev 32: Dst&Dly1 33: Dst&Dly2 34: Dist.
     # PARAMETRO 1 NOMBRE
     if i+1 in (1,2,3,4,5,6,7,8,22,23,24,31):
-        dpg.set_value('Param1_title','EF\Time: sec')
+        dpg.set_value('Param1_title','EF/Time: sec')
     if i+1 in (9,14,32,33):
-        dpg.set_value('Param1_title','EF\Time: ms')
+        dpg.set_value('Param1_title','EF/Time: ms')
     if i+1 in (10,11,13):
-        dpg.set_value('Param1_title','EF\Lch Delay: ms')
+        dpg.set_value('Param1_title','EF/Lch Delay: ms')
     if i+1 == 12:
-        dpg.set_value('Param1_title','EF\Delay: ms')
+        dpg.set_value('Param1_title','EF/Delay: ms')
     if i+1 in (15,16,17,18,19,20,21):
-        dpg.set_value('Param1_title','EF\Room Size')
+        dpg.set_value('Param1_title','EF/Room Size')
     if i+1 == 25:
-        dpg.set_value('Param1_title','EF\Low: db')
+        dpg.set_value('Param1_title','EF/Low: db')
     if i+1 in (26,27,29,30):
-        dpg.set_value('Param1_title','EF\Brilliance')
+        dpg.set_value('Param1_title','EF/Brilliance')
     if i+1 == 28:
-        dpg.set_value('Param1_title','EF\HPF: Hz')
+        dpg.set_value('Param1_title','EF/HPF: Hz')
     if i+1 == 34:
-        dpg.set_value('Param1_title','EF\Level: %')
+        dpg.set_value('Param1_title','EF/Level: %')
     
     # PARAMETRO 1 - RANGE
     if i+1 in (1,2,3,4,5,6,7,8,22,23,24,31):
@@ -405,23 +405,23 @@ def effecttype(sender):
 
     # PARAMETRO 2 NOMBRE
     if i+1 in (1,2,3,4,5,6,7,8,16,17,18,19,20,21):
-        dpg.set_value('Param2_title','EF\LPF: Khz')
+        dpg.set_value('Param2_title','EF/LPF: Khz')
     if i+1 in (9,22,24,26,27,29,30):
-        dpg.set_value('Param2_title','EF\LPF: Khz')
+        dpg.set_value('Param2_title','EF/LPF: Khz')
     if i+1 in (10,11,13):
-        dpg.set_value('Param2_title','EF\Rch Delay: ms')
+        dpg.set_value('Param2_title','EF/Rch Delay: ms')
     if i+1 in (12,34):
-        dpg.set_value('Param2_title','EF\HPF: Hz')
+        dpg.set_value('Param2_title','EF/HPF: Hz')
     if i+1 == 14:
-        dpg.set_value('Param2_title','EF\Pre Delay: ms')
+        dpg.set_value('Param2_title','EF/Pre Delay: ms')
     if i+1 in (15,32,33):
-        dpg.set_value('Param2_title','EF\FB Gain %')
+        dpg.set_value('Param2_title','EF/FB Gain %')
     if i+1 == 23:
-        dpg.set_value('Param2_title','EF\Lch Delay: ms')
+        dpg.set_value('Param2_title','EF/Lch Delay: ms')
     if i+1 in (25,28):
-        dpg.set_value('Param2_title','EF\Mid: db')
+        dpg.set_value('Param2_title','EF/Mid: db')
     if i+1 == 31:
-        dpg.set_value('Param2_title','EF\Depth: %')
+        dpg.set_value('Param2_title','EF/Depth: %')
 
     # PARAMETRO 2 - RANGE
     if i+1 in (1,2,3,4,5,6,7,8,16,17,18,19,20,21):
@@ -458,21 +458,21 @@ def effecttype(sender):
         
     # PARAMETRO 3 NOMBRE
     if i+1 in (1,2,3,4,5,6,7,8,16,17,18):
-        dpg.set_value('Param3_title','EF\Delay: ms')
+        dpg.set_value('Param3_title','EF/Delay: ms')
     if i+1 in (9,10,11,14,19,20,21,22,24,26,27,29,30):
-        dpg.set_value('Param3_title','EF\FB Gain %')
+        dpg.set_value('Param3_title','EF/FB Gain %')
     if i+1 in (12,13,28,34):
-        dpg.set_value('Param3_title','EF\LPF: Khz')
+        dpg.set_value('Param3_title','EF/LPF: Khz')
     if i+1 == 15:
-        dpg.set_value('Param3_title','EF\Direction')
+        dpg.set_value('Param3_title','EF/Direction')
     if i+1 == 23:
-        dpg.set_value('Param3_title','EF\Rch Delay: ms')
+        dpg.set_value('Param3_title','EF/Rch Delay: ms')
     if i+1 == 25:
-        dpg.set_value('Param3_title','EF\High: db')
+        dpg.set_value('Param3_title','EF/High: db')
     if i+1 == 31:
-        dpg.set_value('Param3_title','EF\Balance %')
+        dpg.set_value('Param3_title','EF/Balance %')
     if i+1 in (32,33):
-        dpg.set_value('Param3_title','EF\Depth: %')
+        dpg.set_value('Param3_title','EF/Depth: %')
 
     # PARAMETRO 3 - RANGE
     if i+1 in (1,2,3,4,5,6,7,8,16,17,18):
