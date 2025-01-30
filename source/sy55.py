@@ -203,7 +203,7 @@ def keydownCallback(sender,app_data):
         return
     # ignore any other keys
     if keyascii not in keyplaylist:
-        if keyascii not in ['+','-']:
+        if keyascii not in ['+','-','ɱ','ɲ']:
             return
     key.append(keyascii)
     if keyascii in keyplaylist:
@@ -214,14 +214,18 @@ def keydownCallback(sender,app_data):
 
 def keyreleaseCallback(sender,app_data):
     global OCTAVE, key
+    if sys.platform == 'darwin':
+        keyplus,keyminus = 334, 333
+    if sys.platform == 'win32':
+        keyplus,keyminus = 626, 625
     # octave up
-    if app_data == 334 and OCTAVE < 108:
+    if app_data == keyplus and OCTAVE < 108:
         OCTAVE = OCTAVE + 12
         key = []
         for i in range(128):
             outport.send(mido.Message('note_off', channel=0, note=i, velocity=64, time=0))
     # octave down
-    if app_data == 333 and OCTAVE > 0:
+    if app_data == keyminus and OCTAVE > 0:
         OCTAVE = OCTAVE - 12
         key = []
         for i in range(128):
