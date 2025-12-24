@@ -12,6 +12,7 @@ File list:
 * LICENSE: The BSD new License.
 * README.md: this text file.
 * mac intel.zip: Mac Intel executable (working on Monterey)
+* mac silicon.zip Mac silicon exectuable.
 * windows.zip: Windows 10/11 executable
 
 Python dependencies:
