@@ -11,8 +11,8 @@ File list:
 * source: the python source code folder.
 * LICENSE: The BSD new License.
 * README.md: this text file.
-* sy55.app.zip: Mac Intel executable (working on Monterey)
-* sy55.exe: Windows 10/11 executable
+* mac intel.zip: Mac Intel executable (working on Monterey)
+* windows.zip: Windows 10/11 executable
 
 Python dependencies:
 Tested and working on python 3.11 - 3.12.
